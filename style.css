@@ -1,0 +1,19 @@
+body {
+  background-color: #F2D64C;
+  font-family: 'Cormorant Garamond', serif;
+}
+/* the more specific property takes preference */
+/* if you use external CSS AND internal CSS, browser doesn't know which to choose DONT DO THIS */
+h1,p {
+  color: #7f1ae5;
+  font-size: 50px;
+  font-family: 'PT Serif', serif;
+  /* press cmd + / to comment out */
+}
+
+#first-heading {
+  font-family: papyrus;
+}
+.second-heading {
+  font-family: cursive;
+}
